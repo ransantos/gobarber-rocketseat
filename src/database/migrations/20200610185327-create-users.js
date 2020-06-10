@@ -4,7 +4,7 @@ module.exports = {
     id: {
       type: Sequelize.INTEGER,
       allowNull: false,
-      autoIncxrement: true,
+      autoIncrement: true,
       primaryKey: true,
     },
     name: {
@@ -22,7 +22,7 @@ module.exports = {
     },
     provider: {
       type: Sequelize.BOOLEAN,
-      default_value: false,
+      defaultValue: false,
       allowNull: false,
     },
     created_at: {
@@ -34,6 +34,5 @@ module.exports = {
       allowNull: false,
     },
   }),
-
   down: (queryInterface) => queryInterface.dropTable('users'),
 };
