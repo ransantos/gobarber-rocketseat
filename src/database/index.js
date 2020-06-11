@@ -6,11 +6,6 @@ import databaseConfig from '../config/database';
 
 const models = [User];
 
-/** @@connect
- * to sequelize
- * for postgress
-*/
-
 class Database {
   constructor() {
     this.init();
