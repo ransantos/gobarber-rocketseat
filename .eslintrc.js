@@ -11,7 +11,8 @@ module.exports = {
   rules: {
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
-    "camelcase": "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
-  }
+    camelcase: "off",
+    "eslint quotes": ["error", "single"],
+    "no-unused-vars": ["error", { argsIgnorePattern: "next" }],
+  },
 };
